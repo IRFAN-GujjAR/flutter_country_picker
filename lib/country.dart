@@ -34,7 +34,7 @@ class Country {
       o.dialingCode == this.dialingCode &&
       o.isoCode == this.isoCode &&
       o.asset == this.asset &&
-      o.name == this.name && 
+      o.name == this.name &&
       o.currency == this.currency &&
       o.currencyISO == this.currencyISO;
 
@@ -2314,7 +2314,7 @@ class Country {
       name: name ?? this.name,
       isoCode: isoCode ?? this.isoCode,
       dialingCode: dialingCode ?? this.dialingCode,
-      asset: asset ?? this.asset,
+      asset: asset,
       currency: currency ?? this.currency,
       currencyISO: currencyISO ?? this.currencyISO,
     );
